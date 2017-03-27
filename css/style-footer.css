@@ -1,0 +1,127 @@
+.bs-footer{
+    background-color: #27ae60;
+    height: 100hh;
+    z-index: 3;
+}
+
+.contactUS-footer, footer img{
+    height: 22px;
+    padding-bottom: 5px;
+}
+
+.contactUS-footer, p{
+    margin: 5px 5px 15px 5px;
+}
+
+.contactUS-footer{
+    font-size: 22px;
+}
+
+textarea{
+    resize: none;
+}
+
+#InputMessage-CU,
+#InputEmail-CU,
+#InputName-CU{
+    width: 215px;
+    box-shadow: 2px 3px 4px 0.00px rgba(3, 3, 3, 0.22);
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.btn-contactUS{
+    margin-top: -25px;
+    margin-left: 98px;
+    border: #ffffff;
+    background-color : #fff;
+    border-radius: 7px;
+    font-size: 13px;
+    color: #999999;
+    padding: 3px;
+    width: 116px;
+}
+
+@media(max-width:768px){
+    footer div:nth-child(2) > p:nth-child(1){
+        font-size: 100px;
+    }
+    
+    footer div:nth-child(2) > p:nth-child(2) {
+        font-size: 20px;
+    }
+}
+
+@media(min-width:768px){
+footer div:nth-child(2) > p:nth-child(1){
+    font-size: 145px;
+    line-height: 127px;
+}
+
+footer div:nth-child(2) > p:nth-child(2) {
+    font-size: 28px;
+    margin: -20px 0 0 -5px;
+    }
+}
+
+footer > div > div > div:nth-child(2),
+footer > div:nth-child(2),
+footer > div:nth-child(3){
+    text-align: center;
+    font-weight: lighter;
+}
+
+footer > div:nth-child(2),
+footer > div:nth-child(3){
+    color: #c7ccc9;
+    font-size: 13px;
+}
+
+footer > div:nth-child(2){
+    background-color: #1d884a;
+    height: 20px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+footer > div:nth-child(3){
+    background-color: #165330;
+    height: 16px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+footer .social-btn > button,
+footer .social-btn > button:focus{
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    border-color: #ffffff;
+    border-color: #ffffff;
+    outline: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    margin-bottom: 3px;
+    margin-top: -17px;
+}
+
+footer .btn-vk,
+footer .btn-vk:focus{
+    background-image: url(../images/footer-vk.png);
+}
+
+footer .btn-fb,
+footer .btn-fb:focus{
+    background-image: url(../images/footer-fb.png);
+}
+
+footer .btn-gl,
+footer .btn-gl:focus{
+    background-image: url(../images/footer-gm.png);
+}
+
+footer .btn-gp,
+footer .btn-gp:focus{
+    background-image: url(../images/footer-gp.png);
+}

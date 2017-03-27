@@ -1,0 +1,120 @@
+#nav-login, 
+#nav-registration,
+#nav-login > a, 
+#nav-registration > a {
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#nav-login > a, 
+#nav-registration > a {
+    z-index: 11;
+}
+
+@media(min-width:768px) {
+    #nav-login > a, 
+    #nav-registration > a {
+        height: 36px;
+        margin:52px 0 0 10px;
+        border-radius: 50px;
+        border: 1.9px solid #ffffff;
+        padding-top: 8px;  
+    }
+
+    #nav-login > a{
+        width: 95px;
+        margin-left: 40px;
+        background-color: #ff951d;
+        padding-left: 10px; 
+    }
+
+    #nav-registration > a{
+        width: 145px;
+        background-color: transparent;
+        padding-left: 5px;
+    }
+}
+
+@media(max-width:768px) {
+    #nav-login > a{
+        border-top: 1px inset #101010;
+    } 
+}
+
+/*login*/
+
+#login-dp, 
+#registration-dp{
+    min-width: 250px;
+    padding: 30px 14px 0;
+    background-color: transparent;
+    overflow: hidden;
+    border-width: 0 1px 1px 1px;
+    border-color: #fff;
+    margin: -18px 0 0 40px;  
+    z-index: 9;
+}
+
+#inputPassword {
+    margin-bottom: 15px;
+}
+
+#login-dp > li > div > div > p,
+#registration-dp > li > div > div > p {
+    font-size:18.26px;
+}
+
+.social-buttons-navbar > button {
+    border-radius: 100%;
+    background-color:#ff951d;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social-buttons-navbar {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.social-buttons-navbar > button.btn-vk,
+.social-buttons-navbar > button.btn-vk:hover{
+    outline: none;
+    background-image: url(../images/vk-navbar.png);
+    
+}
+
+.social-buttons-navbar > button.btn-fb,
+.social-buttons-navbar > button.btn-fb:hover{
+    outline: none;
+    background-image: url(../images/fb-navbar.png);
+}
+
+.social-buttons-navbar > button.btn-gm,
+.social-buttons-navbar > button.btn-gm:hover{
+    outline: none;
+    background-image: url(../images/gm-navbar.png); 
+}
+
+
+@media(max-width:768px){
+    #nav-login > a, 
+    #nav-registration > a{
+        margin-left: 16px;
+    }
+    
+    #login-dp > li > div > div{
+        margin-left: 0;
+    }
+    
+    #page-top > nav ul a {
+        margin-right: -15px;
+    }
+
+    .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover{
+        background-color: rgba(38, 172, 95, 0.5);
+    }
+}

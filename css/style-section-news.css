@@ -1,0 +1,87 @@
+.news-head-section{
+    background-color: #f39400;
+    position: relative;
+    height: 350px;
+    box-shadow: 7px 12px 27px 0.00px rgba(3, 3, 3, 0.75);
+    z-index: 4;
+    text-align: center;
+}
+
+.news-footer-section{
+    background: url(../images/news-footer-bg.png) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 1896px;
+    z-index: 3;
+}
+
+#news .social-btn > button{
+	width: 69px;
+	height: 69px;
+	border-radius: 50%;
+	border-color: #0B0B0B;
+	outline: none;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #0B0B0B;
+	margin-left: 8px;
+	position: relative;
+}
+
+#news-button img {
+    margin-top: 94px;
+}   
+
+#news .btn-vk{
+    background-image: url(../images/news-vk.png);
+}
+
+#news .btn-fb{
+    background-image: url(../images/news-fb.png);
+}
+
+#news .btn-gl{
+    background-image: url(../images/news-gl.png);
+}
+
+#news .btn-play{ 
+    background-image: url(../images/news-playmarket.png);
+    width: 60px;
+    height: 65px;
+    background-color: transparent;   
+}
+
+@media(min-width:768px){
+    #news-shadow{
+        position: absolute;
+        margin-top: 62px;
+    }
+
+    #pic-news{
+        position: relative;
+        margin-top: 62px;
+    }
+
+    #news-button img {
+        margin-left: -110px;
+    }   
+
+    #news .social-btn {
+        margin-left: -120px;
+    }
+
+    #news #img-shaddow > img:nth-child(1){
+        position: absolute;
+        margin: 10px 0 0 0px;
+    }
+
+    #news #img-shaddow > img:nth-child(2){
+        position: absolute;
+        margin: 10px 0 0 -80px;
+    }
+
+    #news #img-shaddow > img:nth-child(3){
+        position: absolute;
+        margin: 10px 0 0 -160px;
+    }
+}

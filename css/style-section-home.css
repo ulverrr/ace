@@ -1,0 +1,189 @@
+@media(min-width:768px) {
+    .home-section{
+        height: 100vh;
+    }
+}
+
+#home > div > div:nth-child(1) > div{
+    text-align: center;
+}
+
+.home-section{
+    background: url(../images/bg-home.png)no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 767px;
+    position: relative;
+    box-shadow: 4px 7px 4px 0.00px rgba(3, 3, 3, 0.42);
+    z-index: 5;
+}    
+
+.btn-wish{
+    position: relative;
+    background-color: #DA8D33;
+    color: #ffffff;
+    border-radius: 14px;
+    border: 2px solid #DA8D33;
+    font-size: 22px;
+    height: 42px;
+    width: 166px;
+    z-index: 1;
+    margin-top: -6px;
+}
+
+#home > div > div:nth-child(2) > div:nth-child(1) > input[type="text"] {
+    position: relative;
+    background-color: #f0f9f4;
+    border-radius: 14px;
+    height: 42px;
+    width: 303px;
+    border: 2px solid #d98016;
+    margin-left: -24px;
+    z-index: 0;
+    font-size: 22px;
+    padding-left: 35px;
+    font-style: italic;
+    color: black;
+     outline: none;
+}
+
+.btn-ido{
+    background-color: transparent;
+    border: 2px solid #d98118;
+    border-radius: 14px;
+    text-align: center;
+    height: 42px;
+    width: 413px;
+    font-size: 22px;
+}
+
+.btn {
+  outline:none;
+}
+
+#home > div > div:nth-child(2) > div:nth-child(1),
+#home > div > div:nth-child(2) > div:nth-child(2){
+    text-align: center;
+}
+
+@media(min-width:900px) and (max-width:991px){
+    #home-ace{
+        margin-top: 230px;
+        font-size: 160px;
+        line-height: 127.563px;
+    }
+    
+    #home-accept{
+        font-weight: lighter;
+        font-size: 31px;
+        margin-left: -3px;
+    }
+    
+    .home-section hr{
+        width: 363px;
+    }
+    
+    .home-section p:nth-child(4){
+        font-style: italic;
+        font-size: 24px;
+        font-weight: lighter;
+    }
+}
+
+@media(min-width:768px) and (max-width:899px){
+    #home-ace{
+        margin-left: -60px;
+        margin-top: 230px;
+        font-size: 120px;
+    }
+    
+     #home-accept {
+        margin: -40px 0 0 -68px;
+        font-size: 23px;
+        font-weight: lighter;
+    }
+    
+    .home-section hr{
+        margin-left: 2%;
+        width: 280px;
+    }
+    .home-section p:nth-child(4){
+        margin-left: -60px;
+        font-style: italic;
+        font-size: 18px;
+        font-weight: lighter;
+    }
+}
+
+@media(min-width:992px){
+    #home-ace{
+        font-size:  190px;
+        line-height: 127.563px;
+        margin-top: 239px;
+    }
+    
+     #home-accept {
+        font-size: 37px;
+        font-weight: lighter;
+        margin-left: -4px;
+    }
+    
+    .home-section hr{
+        width: 433px;
+    }
+    
+    .home-section p:nth-child(4){
+        font-style: italic;
+        font-size: 24px;
+        font-weight: lighter;
+    } 
+}
+
+@media(max-width:768px){
+    #home-ace{
+        margin-top: 230px;
+        font-size: 100px;
+        font-weight: 600;
+    }
+    
+     #home-accept {
+         margin: -20px 0 0 -3px;
+        font-size: 20px;
+    }
+    
+    hr{
+        width: 0; 
+    }
+}
+
+@media(min-width:500px) and (max-width:990px){
+    .btn-ido{
+        margin-top: 10px;
+        width: 445px;
+    }
+}
+
+@media(max-width:499px){
+    .btn-wish{
+        padding: 0;
+        font-size: 15px;
+        height: 25px;
+        width: 80px;
+        margin-top: -3px;
+    }
+
+    #home > div > div:nth-child(2) > div:nth-child(1) > input[type="text"] {
+        height: 25px;
+        width: 200px;
+        font-size: 15px;
+        padding-left: 25px;
+    }
+
+    .btn-ido{
+        padding: 0;
+        height: 25px;
+        width: 200px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+}
